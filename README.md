@@ -5,7 +5,9 @@ This is a mini-project that implements a neural network from scratch to learn th
 ## Why XOR?
 If we use machine learning, XOR problem cannot be solved. It's because XOR is **not linearly separable**. A single layer perceptron cannot find the optimal decision boundary (Check Figure below). This project shows how using a hidden layer with a non-linear activation function (Sigmoid) can learn the complex decision boundary to solve XOR problem.
 
-<img src="images/xor_plot.png" alt="XOR Plot" width="200">
+<p align="center">
+    <img src="images/xor_plot.png" alt="XOR Plot" width="300">
+</p>
 
 ## What is XOR?
 XOR (Exclusive OR) logical operation returns output 1 when inputs are different; otherwise, it returns 0. Here is the truth table for XOR Logic Gate:
@@ -23,7 +25,9 @@ XOR (Exclusive OR) logical operation returns output 1 when inputs are different;
 - **Output Layer:** 1 node with Sigmoid activation
 - **Optimization:** Gradient Descent with manual Backpropagation
 
-<img src="images/nn_arch.png" alt="XOR Neural Network Architecture" width="200">
+<p align="center">
+    <img src="images/nn_arch.png" alt="XOR Neural Network Architecture" width="500">
+</p>
 
 ## Mathematical Implementation
 The network uses the **Sigmoid** activation function:
@@ -43,7 +47,7 @@ This implementation updates both **weights** and **biases** for better convergen
 The model successfully minimizes the Mean Squared Error (MSE) over 10,000 iterations (Check Convergence Plot).
 
 <p align="center">
-  <img src="images/cost_plot.png" width="500" alt="Cost Convergence Plot">
+  <img src="images/cost_plot.png" width="400" alt="Cost Convergence Plot">
 </p>
 
 ### Final Model Accuracy
