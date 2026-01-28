@@ -13,6 +13,8 @@ If we use machine learning, XOR problem cannot be solved. It's because XOR is **
 - **Output Layer:** 1 node with Sigmoid activation
 - **Optimization:** Gradient Descent with manual Backpropagation
 
+<img src="images/nn_arch.png" alt="XOR Neural Network Architecture" width="200">
+
 ## Mathematical Implementation
 The network uses the **Sigmoid** activation function:
 $$S(z) = \frac{1}{1 + e^{-z}}$$
