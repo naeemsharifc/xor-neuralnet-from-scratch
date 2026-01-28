@@ -55,7 +55,7 @@ After training, the model produces the following outputs for the XOR truth table
 
 | Input (x1, x2) | Raw Probability | Rounded Output |
 | :--- | :--- | :--- |
-| (0, 0) | 0.0214 | **0** |
-| (0, 1) | 0.9577 | **1** |
-| (1, 0) | 0.9590 | **1** |
-| (1, 1) | 0.0473 | **0** |
+| (0, 0) | 0.0247 | **0** |
+| (0, 1) | 0.9522 | **1** |
+| (1, 0) | 0.9558 | **1** |
+| (1, 1) | 0.0549 | **0** |
