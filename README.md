@@ -36,3 +36,22 @@ The model minimizes the **Mean Squared Error (MSE)** using Gradient Descent:
 $$J = \frac{1}{2} \sum (y - \hat{y})^2$$
 
 This implementation updates both **weights** and **biases** for better convergence.
+
+## Results
+
+### Convergence
+The model successfully minimizes the Mean Squared Error (MSE) over 10,000 iterations (Check Convergence Plot).
+
+<p align="center">
+  <img src="images/cost_plot.png" width="500" alt="Cost Convergence Plot">
+</p>
+
+### Final Model Accuracy
+After training, the model produces the following outputs for the XOR truth table:
+
+| Input (x1, x2) | Raw Probability | Rounded Output |
+| :--- | :--- | :--- |
+| (0, 0) | 0.0214 | **0** |
+| (0, 1) | 0.9577 | **1** |
+| (1, 0) | 0.9590 | **1** |
+| (1, 1) | 0.0473 | **0** |
