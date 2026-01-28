@@ -1,9 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Set random seed for consistent results on each program run
+np.random.seed(42)
+
 class XORNeuralNet:
     def __init__(self):
         # Initialize weights and biases
+        
         self.Wxh = np.random.randn(2, 5)
         self.bh = np.zeros((1, 5))
         self.Why = np.random.randn(5, 1)
