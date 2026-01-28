@@ -7,6 +7,16 @@ If we use machine learning, XOR problem cannot be solved. It's because XOR is **
 
 <img src="images/xor_plot.png" alt="XOR Plot" width="200">
 
+## What is XOR?
+XOR (Exclusive OR) logical operation returns output 1 when inputs are different; otherwise, it returns 0. Here is the truth table for XOR Logic Gate:
+
+| Input $x_1$ | Input $x_2$ | Output $y$ |
+| :---: | :---: | :---: |
+| 0 | 0 | **0** |
+| 0 | 1 | **1** |
+| 1 | 0 | **1** |
+| 1 | 1 | **0** |
+
 ## Network Architecture
 - **Input Layer:** 2 nodes ($x_1, x_2$)
 - **Hidden Layer:** 5 nodes with Sigmoid activation
