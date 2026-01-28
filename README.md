@@ -5,7 +5,7 @@ This is a mini-project that implements a neural network from scratch to learn th
 ## Why XOR?
 If we use machine learning, XOR problem cannot be solved. It's because XOR is **not linearly separable**. A single layer perceptron cannot find the optimal decision boundary (Check Figure below). This project shows how using a hidden layer with a non-linear activation function (Sigmoid) can learn the complex decision boundary to solve XOR problem.
 
-<img src="images/xor_plot.png" alt="XOR Plot" width="300">
+<img src="images/xor_plot.png" alt="XOR Plot" width="200">
 
 ## Network Architecture
 - **Input Layer:** 2 nodes ($x_1, x_2$)
